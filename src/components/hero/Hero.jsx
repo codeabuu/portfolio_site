@@ -44,15 +44,16 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Languages don't limit me, teamwork fuels my creations! Let's create something amazing together!🏋🏻‍♂️
+              Languages don't limit me, teamwork fuels my creations! Let's create something amazing together!🏋🏻‍♂️< br/>
+              
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href="www.linkedin.com/in/abdulngui"
+              href="https://www.linkedin.com/in/abdulngui"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span> Hire Me</span>
+              Hire Me
             </a>
             <a
               href={resumePDF}
@@ -71,13 +72,16 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/codeabuu">
+                <a href="https://github.com/codeabuu"
+                >
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="www.linkedin.com/in/abdulngui">
+                <a href="https://www.linkedin.com/in/abdulngui"
+                target="_blank"
+                rel="noopener noreferrer">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>

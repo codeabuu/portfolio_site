@@ -17,7 +17,7 @@ const Footer = () => {
         <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href="www.linkedin.com/in/abdulngui"
+            href="https://www.linkedin.com/in/abdulngui"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <SiLinkedin className=" text-black text-3xl hover:scale-125 cursor-pointer" />
