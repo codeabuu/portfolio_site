@@ -95,7 +95,7 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src='https://catastic.pet/wp-content/uploads/2022/07/grey-tuxedo-cat-1400x785.jpg'
               // src={mine}
               alt="mine"
             />

@@ -12,7 +12,7 @@ const Resume = () => {
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
         <p className=" text-gray-700 font-medium w-[100%]">
-          I do hard staff.
+        Coding My Way Through Life.
         </p>
       </div>
       {/* card*/}
@@ -35,18 +35,19 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Freelance Software Engineer &<br />IT Support
+                  Software Engineer<br /><a href="https://www.standardbank.com/sbg/standard-bank-group" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                <span className="text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                🔗Standard Bank Group
+                </span>
+              </a>
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  December 2022 - Present
+                  January 2022 - February 2024
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                I spearheaded significant enhancements to backend systems and microservices, resulting in measurable improvements in system performance and user satisfaction. Here are the key achievements:< br/>
+                <strong>1. Enhanced System Functionalities and Optimized codebases</strong>, which led to a remarkable 30% increase in performance and reliability.< br/>
+                <strong>2. Implemented Agile methodologies</strong> to streamline development processes, fostering rapid iteration and continuous improvement in backend systems and microservices.
                 </p>
               </div>
             </div>
@@ -68,12 +69,13 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" grid grid-cols-[auto,1fr] gap-4 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className="flex flex-col gap-1 border-r-2 border-black-400 pr-4 min-w-[200px]">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, IT
+                  Ba, IT
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Catholic University of Kenya
+                  The Eldoret National Polytechnic
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Year 2018 - Year 2021
@@ -86,6 +88,23 @@ const Resume = () => {
                   eos cum tempora. Debitis, esse quae corporis deserunt officia
                   quos in a, quaerat vero odio vitae.
                 </p>
+                </div>
+                <div className="flexs flex-col pr-4 min-w-[165px]">
+                <h2 className="text-[1.4rem] font-semibold sm:text-xl ">
+                 Software Eng
+                </h2>
+                <a href="https://www.holbertonschool.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                <span className="text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                🔗Holberton School, US
+                </span>< br/>
+              </a>
+              <span className="text-[.89rem] font-semibold text-yellow-500 sm:text-base">
+                  Year 2023 - Year 2024
+                </span>< br/>
+                <span className=" text-[.9rem] text-justify text-gray-500 m-0 p-0">
+                Engaged & completed an intensive program to update and enhance my software engineering skills, focusing on modern, advanced practices and practical software development technologies to stay ahead in the field.
+                </span>
+                </div>
               </div>
             </div>
           </fieldset>

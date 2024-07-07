@@ -1,155 +1,198 @@
 import React from "react";
-import ProgressBar from "../../chip/ProgressBar";
-import SkillBox from "../../chip/SkillBox";
 
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-
-
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
-} from "react-icons/si";
-import { GrCode } from "react-icons/gr";
-import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io";
-
-const Skills = ({ darkMode }) => {
+const Resume = () => {
   return (
-    <div id="skills">
-      <div className=" container m-auto  mt-16">
-        {/* heading */}
-        <div data-aos="fade-up" className="relative mb-5">
-          <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-            My Skills
-          </h3>
-          <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
-        </div>
-        {/* content*/}
-        <div className="flex md:flex-col ">
-          <div className="left flex-1 w-full">
-            <p
-              data-aos="fade-up"
-              className=" text-gray-700 font-medium w-[100%]"
-            >
-              Here are my skills.
-            </p>
-            {/* left box */}
-            <div
-              data-aos="zoom-in"
-              className="progress flex items-center h-[100%] justify-end md:justify-center"
-            >
-              <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
-                <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
-                  value={80}
-                />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
-                <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
-                  value={80}
-                />
+    <div id="resume" className=" container m-auto   mt-16">
+      {/* heading */}
+      <div data-aos="fade-up" className="relative mb-5">
+        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
+          My Skills
+        </h3>
+        <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
+      </div>
+      <div data-aos="fade-up" className="left flex-1 w-full">
+        <p className=" text-gray-700 font-medium w-[100%]">
+        Here are my skills.
+        </p>
+      </div>
+      {/* card*/}
+      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
+        <div className="left flex-1 flex items-center justify-center">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
+            <legend className="bg-white text-black font-bold w-auto ml-[50%] -translate-x-1/2 border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl">
+              Backend
+            </legend>
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className="grid grid-cols-[auto,1fr] gap-4 border-2 border-black-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <div className="flex flex-col gap-1">
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●Python
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h2 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●Golang
+                </h2>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●C#, .Net
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Intermediate
+                </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●Rust
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Basic
+                </p>
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●C++
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Basic
+                </p>
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●Microservices
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●AWS Lambda
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                </div>
+                <div className="flex flex-col gap-1">
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                    ●OOP, OON
+                  </h1>
+                  <p className="text-[.9rem] text-justify break-words text-gray-500">
+                    Experienced
+                  </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                    ●Postgres, GraphQL, MongoDb, Redis
+                  </h1>
+                  <p className="text-[.9rem] text-justify break-words text-gray-500">
+                    Experienced
+                  </p>
+                  <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●SQL
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●NodeJS
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●RESTful APIs, API Design
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                
+                </div>
               </div>
             </div>
-          </div>
-          {/* right box */}
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            <div className="first2 flex flex-col gap-10">
-              <SkillBox
-                logo={<IoLogoNodejs />}
-                black={"white"}
-                white={"black"}
-                skill={"Node Js"}
-              />
-              <SkillBox
-                logo={<SiMongodb />}
-                black={"white"}
-                white={"black"}
-                skill={"MongoDB"}
-              />
-            </div>
-            <div className="last2 flex flex-col gap-10">
-              <SkillBox
-                logo={<SiExpress />}
-                black={"black"}
-                white={"white"}
-                skill={"Express Js"}
-              />
-              <SkillBox
-                className=""
-                logo={
-                  <GrCode/>
-                }
-                black={"black"}
-                white={"white"}
-                skill={"C++"}
-              />
-              {/* <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
-                black={"black"}
-                white={"white"}
-                skill={"Next Js"}
-              /> */}
-            </div>
-          </div>
+          </fieldset>
         </div>
-
-        {/* icons */}
-        {/* <div
-          data-aos="fade-up"
-          data-aos-duration="1200"
-          className=" container m-auto flex items-center justify-center mt-8 gap-8 md:gap-5"
-        >
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/c-plus-plus-logo.png"
-          />
-
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/python--v1.png"
-          />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios/50/null/react-native--v1.png"
-          />
-
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/sass.png"
-            />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/git.png"
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src="https://img.icons8.com/windows/50/null/sass--v1.png"
-            />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/c-plus-plus-logo.png"
-          />
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/ios-filled/50/null/python.png"
-          />
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"/>
-        </div> */}
+        <div className="right flex-1 flex items-center justify-center">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
+            <legend className="bg-white text-black font-bold w-auto ml-[50%] -translate-x-1/2 border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl">
+              Frontend
+            </legend>
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className="grid grid-cols-[auto,1fr] gap-4 border-2 border-black-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <div className="flex flex-col gap-1">
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●JavaScript
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h2 className="text-[1.rem] font-semibold sm:text-xl">
+                ●ReactJS, React Native
+                </h2>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Intermediate
+                </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●Html, CSS
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●JQuery
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●Typescript
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Intermediate
+                </p>
+                <h1 className="text-[1.1rem] font-semibold sm:text-xl">
+                ●UI/UX
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Intermediate
+                </p>
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                ●Bootstrap
+                </h1>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Experienced
+                </p>
+                </div>
+                <div className="flex flex-col gap-1">
+                <h1 className="text-[1.rem] font-semibold sm:text-xl">
+                    ●NextJS
+                  </h1>
+                  <p className="text-[.9rem] text-justify break-words text-gray-500">
+                    Intermediate
+                  </p>
+                </div>
+                </div>
+                </div>
+              
+          </fieldset>
+        </div>
       </div>
+      <h5><strong>Others:</strong> Git/Github, Elasticsearch, Puppeteer, automation and scripting, Docker, kubernetes, Agile methodologies, CI/CD, sunit tests, AWS, Linux/Unix, Postman, Django, Flask, Embeded systems etc.</h5>
     </div>
   );
 };
 
-export default Skills;
+export default Resume;
