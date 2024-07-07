@@ -3,6 +3,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
+import { SiLinkedin } from 'react-icons/si';
+
 
 const Footer = () => {
   return (
@@ -12,10 +14,19 @@ const Footer = () => {
         data-aos="zoom-out"
          className=" font-bold text-5xl sm:text-3xl">Let's Talk</h2>
         <div className=" flex items-center justify-center gap-8 sm:gap-5">
+        <a 
+          data-aos="fade-up" data-aos-duration="1400"
+
+            href="www.linkedin.com/in/abdulngui"
+            className="box font-medium text-white  flex items-center justify-center flex-col"
+          >
+            <SiLinkedin className=" text-black text-3xl hover:scale-125 cursor-pointer" />
+            <p>LinkedIn</p>
+          </a>
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
-            href="https://wa.me/+254786703705"
+            href="https://wa.me/+254725748376"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -24,7 +35,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href="mailto:abdulngui718@gmail.com"
+            href="mailto:abdulnguih@gmail.com"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <SiGmail className=" text-black text-3xl hover:scale-125 cursor-pointer" />

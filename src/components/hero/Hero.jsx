@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
@@ -9,6 +9,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
+import musicFile from "../../assets/audis.mp3";
 
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
                 2000,
                 "IT Support",
                 2000,
-                "Freelancer",
+                "Full Stack Developer",
                 2000,
                 "",
               ]}
@@ -48,7 +49,7 @@ const Hero = () => {
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href=""
+              href="www.linkedin.com/in/abdulngui"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
@@ -70,19 +71,19 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/codeabuu">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="www.linkedin.com/in/abdulngui">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://twitter.com/AbdullahiNgui?t=p6jx3FmL7O6PtQZXsZfpWQ&s=09">
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -108,6 +109,7 @@ const Hero = () => {
                 />
                 <FaPlay
                   className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                  
                 />
               </div>
             </div>

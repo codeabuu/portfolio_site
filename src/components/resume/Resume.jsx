@@ -69,9 +69,9 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" grid grid-cols-[auto,1fr] gap-4 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-              <div className="flex flex-col gap-1 border-r-2 border-black-400 pr-4 min-w-[200px]">
-                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+              <div className=" grid grid-cols-[auto,1fr] gap-2 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-2 rounded-lg">
+              <div className="flex flex-col gap-0.5 border-r-2 border-black-400 pr-2 min-w-[270px]">
+                <h1 className="text-[1.2rem] font-semibold sm:text-xl">
                   Ba, IT
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
@@ -80,13 +80,8 @@ const Resume = () => {
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   Year 2018 - Year 2021
                 </span>
-                <p className=" text-[.9rem] text-justify text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                <p className=" text-[.85rem] text-justify text-gray-500 leading-tight">
+                As a top student, I gained a comprehensive understanding of the entire SDLC, essential programming languages, algorithms, and data structures. My training included system administration, real-world problem-solving, and exploration of internet security. Additionally, my internship at the National Hospital Insurance Fund (NHIF) provided valuable hands-on experience in software engineering and IT support.
                 </p>
                 </div>
                 <div className="flexs flex-col pr-4 min-w-[165px]">
